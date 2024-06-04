@@ -3,42 +3,71 @@ body {
 }
 
 .weather-box {
-  background: linear-gradient(to right, rgb(185, 212, 235), rgb(253, 225, 100));
+  /* background: linear-gradient(to right, rgb(185, 212, 235), rgb(253, 225, 100)); */
+  /* background: linear-gradient(to right, rgb(33, 12, 109), rgb(0, 69, 197)); */
+  background: linear-gradient(to right, rgb(150, 150, 150), rgb(230, 230, 230));
   border: none;
   border-radius: 0.6rem;
   align-items: center;
   justify-content: center;
   display: flex;
   flex-direction: column;
-  margin-top: 10%;
+  margin-top: 5%;
   box-shadow: 0px 2px 15px 9px rgba(0, 0, 0, 0.2);
 }
 
 input {
   padding: 10px;
   border: none;
-  border-radius: 2rem;
+  border-top-left-radius: 2rem;
+  border-bottom-left-radius: 2rem;
   box-shadow: 0px 0px 10px 1.5px rgba(0, 0, 0, 0.2);
 }
 
 button {
-  padding: 10px;
+  padding: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   border: none;
   box-shadow: 0px 0px 10px 1.5px rgba(0, 0, 0, 0.2);
-  border-radius: 1.36rem;
+  border-radius: 1.8rem;
+  margin-left: -8px;
+  background-color: rgb(230, 230, 230);
 }
 
 .iconPlusTempre {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 
 .tempreture-div {
   font-size: 90px;
   color: white;
+}
+
+.city-name {
+  font-size: 28px;
+  color: white;
+  margin-top: -30px;
+}
+
+.blur-box {
+  box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgba(167, 210, 235, 0.25);
+  backdrop-filter: blur(10px);
+}
+
+.blur-box-reading {
+  font-size: 25px;
+  color: white;
+}
+
+.blur-box-text {
+  font-size: 13px;
+  color: white;
+  margin-top: -10px;
 }
 
 @media (max-width: 750px) {
