@@ -76,26 +76,27 @@ button {
 }
 
 @media (max-width: 750px) {
+  
   .weather-box {
     width: 75%;
   }
 
   .weatherImg {
-    width: 120px;
+    width: 100px;
   }
 
   .tempreture-div {
-    font-size: 70px;
+    font-size: 60px;
   }
 
   .city-name {
-    font-size: 20px;
+    font-size: 17px;
     margin-top: -20px;
   }
 
   .description-div {
-    font-size: 15px;
-    margin-bottom: -28px;
+    font-size: 13px;
+    margin-bottom: -24px;
   }
 
   .boxes {
