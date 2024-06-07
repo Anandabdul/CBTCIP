@@ -12,7 +12,7 @@ body {
   flex-direction: column;
   margin-top: 7%;
   box-shadow: 0px 2px 15px 9px rgba(0, 0, 0, 0.2);
-  transition: 1s;
+  transition: 0.50s;
 }
 
 input {
@@ -79,4 +79,27 @@ button {
   .weather-box {
     width: 75%;
   }
+
+  .weatherImg {
+    width: 120px;
+  }
+
+  .tempreture-div {
+    font-size: 70px;
+  }
+
+  .city-name {
+    font-size: 20px;
+    margin-top: -20px;
+  }
+
+  .description-div {
+    font-size: 15px;
+    margin-bottom: -28px;
+  }
+
+  .boxes {
+    width: 250px;
+  }
+
 }
